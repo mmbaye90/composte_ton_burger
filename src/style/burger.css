@@ -12,6 +12,8 @@
     margin: auto;
     overflow: auto;
 }
+.ingredients .top{
+}
 .menu{
     display: flex;
     flex-direction: column;
