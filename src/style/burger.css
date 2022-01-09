@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ingredients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+    max-width: 40rem;
+    margin: auto;
+    overflow: auto;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+    margin: auto;
+    background-color: tomato;
+    margin-top: 1rem;
+}
+.menu .containerbtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 2rem;
+}
+.menu .containerbtn .add,
+.menu .containerbtn .supprimer{
+    background-color: red;
+    display: block;
+    border-radius: 0.3rem;
+    border: none;
+    width: 6.5rem;
+    height: 100%;
+    text-align: center;
+    padding-top: 0.40rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+.menu .containerbtn .supprimer:hover{
+    background-color: rgb(231, 47, 15);
+}
