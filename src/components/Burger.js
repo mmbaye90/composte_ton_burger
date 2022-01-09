@@ -15,6 +15,21 @@ export default function Burger() {
           <boutton className="add">Ajouter</boutton>
           <boutton className="supprimer">Supprimer</boutton>
         </div>
+        <h2>Sauce</h2>
+        <div className="containerbtn">
+          <boutton className="add">Ajouter</boutton>
+          <boutton className="supprimer">Supprimer</boutton>
+        </div>
+        <h2>Fromage</h2>
+        <div className="containerbtn">
+          <boutton className="add">Ajouter</boutton>
+          <boutton className="supprimer">Supprimer</boutton>
+        </div>
+        <h2>Steak</h2>
+        <div className="containerbtn">
+          <boutton className="add">Ajouter</boutton>
+          <boutton className="supprimer">Supprimer</boutton>
+        </div>
       </div>
     </div>
   );
